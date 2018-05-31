@@ -1,0 +1,8 @@
+{
+  "timestamp": 1527750375013,
+  "status": 500,
+  "error": "Internal Server Error",
+  "exception": "org.mybatis.spring.MyBatisSystemException",
+  "message": "nested exception is org.apache.ibatis.exceptions.PersistenceException: \r\n### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.\r\n### The error may exist in file [F:\\springclound\\springboot-mybatis-demo2-master\\target\\classes\\mapper\\UserMapper.xml]\r\n### The error may involve com.winterchen.dao.UserDao.findUserById\r\n### The error occurred while executing a query\r\n### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+  "path": "/user/get/1"
+}

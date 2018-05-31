@@ -1,0 +1,8 @@
+{
+  "timestamp": 1527748883241,
+  "status": 500,
+  "error": "Internal Server Error",
+  "exception": "java.lang.IllegalArgumentException",
+  "message": "No converter found for return value of type: class com.winterchen.ResponseEntity",
+  "path": "/user/all"
+}

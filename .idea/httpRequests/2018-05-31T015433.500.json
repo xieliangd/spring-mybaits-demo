@@ -1,0 +1,8 @@
+{
+  "timestamp": 1527746073551,
+  "status": 500,
+  "error": "Internal Server Error",
+  "exception": "java.lang.IllegalStateException",
+  "message": "Optional long parameter 'id' is present but cannot be translated into a null value due to being declared as a primitive type. Consider declaring it as object wrapper for the corresponding primitive type.",
+  "path": "/user/get/1"
+}

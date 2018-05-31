@@ -1,0 +1,8 @@
+{
+  "status": 200,
+  "body": {
+    "id": 1,
+    "username": "xiell1",
+    "age": 18
+  }
+}

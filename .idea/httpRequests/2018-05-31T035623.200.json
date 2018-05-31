@@ -1,0 +1,73 @@
+{
+  "status": 200,
+  "body": {
+    "total": 9,
+    "list": [
+      {
+        "id": null,
+        "username": "xiell",
+        "age": 17
+      },
+      {
+        "id": null,
+        "username": "xiell1",
+        "age": 18
+      },
+      {
+        "id": null,
+        "username": "xiell2",
+        "age": 19
+      },
+      {
+        "id": null,
+        "username": "xiell3",
+        "age": 20
+      },
+      {
+        "id": null,
+        "username": null,
+        "age": 88
+      },
+      {
+        "id": null,
+        "username": null,
+        "age": 88
+      },
+      {
+        "id": null,
+        "username": "\"nihao\"",
+        "age": 88
+      },
+      {
+        "id": null,
+        "username": "nihao",
+        "age": 88
+      },
+      {
+        "id": null,
+        "username": "moon",
+        "age": 119
+      }
+    ],
+    "pageNum": 1,
+    "pageSize": 10,
+    "size": 9,
+    "startRow": 1,
+    "endRow": 9,
+    "pages": 1,
+    "prePage": 0,
+    "nextPage": 0,
+    "isFirstPage": true,
+    "isLastPage": true,
+    "hasPreviousPage": false,
+    "hasNextPage": false,
+    "navigatePages": 8,
+    "navigatepageNums": [
+      1
+    ],
+    "navigateFirstPage": 1,
+    "navigateLastPage": 1,
+    "lastPage": 1,
+    "firstPage": 1
+  }
+}
