@@ -3,9 +3,9 @@ server:
 
 spring:
   datasource:
-     url: jdbc:mysql://10.145.192.154:3306/test
-     username: jirauser
-     password: jira
+     url: jdbc:mysql://127.0.0.1:3306/test
+     username: root
+     password: root
      driver-class-name: com.mysql.jdbc.Driver
      type: com.alibaba.druid.pool.DruidDataSource
      filters: stat
