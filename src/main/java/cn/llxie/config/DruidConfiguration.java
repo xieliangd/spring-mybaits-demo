@@ -1,4 +1,4 @@
-package cn.llxie.Config;
+package cn.llxie.config;
 
 import java.sql.SQLException;
 import javax.sql.DataSource;
