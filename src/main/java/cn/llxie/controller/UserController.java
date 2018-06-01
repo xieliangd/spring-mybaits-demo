@@ -1,5 +1,6 @@
 package cn.llxie.controller;
 
+import cn.llxie.config.SystemConfigbean;
 import com.github.pagehelper.PageInfo;
 import cn.llxie.domain.User;
 import cn.llxie.base.ResponseEntity;
@@ -16,6 +17,9 @@ public class UserController {
     @Autowired
     private UserService userService;
 
+    @Autowired
+    private SystemConfigbean systemConfigbean;
+
     @ResponseBody
     @PostMapping("/add")
     public int addUser(User user) {
@@ -26,7 +30,7 @@ public class UserController {
     @GetMapping("/get/{id}")
     public ResponseEntity<User> getUser(@PathVariable("id") Long id,@RequestParam(name = "pageNum", required = false, defaultValue = "1") int pageNum) {
 
-        System.out.println("user pageNum..."+pageNum);//此处验证参数传递 @PathVariable @RequestParam
+        System.out.println("getUser --------user pageNum..."+pageNum);//此处验证参数传递 @PathVariable @RequestParam
         User user = userService.findUserById(id);
         if (user != null){
             return new ResponseEntity.Builder()
@@ -50,6 +54,7 @@ public class UserController {
                     int pageNum,
             @RequestParam(name = "pageSize", required = false, defaultValue = "10")
                     int pageSize) {
+        System.out.println("ip "+systemConfigbean.getIp()+" port "+systemConfigbean.getPort());
         return new ResponseEntity.Builder()
                 .status(HttpStatus.OK.value())
                 .body(userService.findAllUser(pageNum, pageSize))
