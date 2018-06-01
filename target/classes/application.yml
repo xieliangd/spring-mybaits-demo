@@ -8,7 +8,6 @@ spring:
      password: jira
      driver-class-name: com.mysql.jdbc.Driver
      type: com.alibaba.druid.pool.DruidDataSource
-     filters: stat
      maxActive: 20
      initialSize: 1
      maxWait: 60000
@@ -21,6 +20,8 @@ spring:
      testOnReturn: false
      poolPreparedStatements: true
      maxOpenPreparedStatements: 20
+     filters: stat,wall,slf4j
+     connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
 
 mybatis:
   mapper-locations: classpath:mapper/*.xml

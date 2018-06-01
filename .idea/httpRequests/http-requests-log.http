@@ -1,3 +1,35 @@
+GET http://127.0.0.1:5610/user/get/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-06-01T104533.200.json
+
+###
+
+GET http://127.0.0.1:5610/user/all
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-06-01T104514.200.json
+
+###
+
+GET http://127.0.0.1:5610/user/all
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-06-01T103005.200.json
+
+###
+
+GET http://127.0.0.1:5610/user/all
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-06-01T084530.200.json
+
+###
+
 GET http://127.0.0.1:5610/user/all
 Accept: */*
 Cache-Control: no-cache
@@ -363,38 +395,6 @@ Accept: */*
 Cache-Control: no-cache
 
 <> 2018-05-31T014543.200.json
-
-###
-
-GET http://127.0.0.1:5610/user/get/1?id=119&username=moon&age=119
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-05-31T014532.200.json
-
-###
-
-GET http://127.0.0.1:5610/user/get/1?id=119&username=moon&age=119
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-05-31T014312.200.json
-
-###
-
-GET http://127.0.0.1:5610/user/get/0?id=119&username=moon&age=119
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-05-31T014305.200.json
-
-###
-
-GET http://127.0.0.1:5610/user/all?id=119&username=moon&age=119
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-05-31T014029.200.json
 
 ###
 
